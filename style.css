@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(5,61,42);
+    padding: 12px 14px;
+    color: white;
+}
+
+nav a{
+    margin-left: 5px;
+}
+
+nav a:hover{
+    background-color: antiquewhite;
+    padding: 12px 14px;
+}
+
+/* header{
+    min-height: 60vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+} */
+
+.about h2{
+    margin: 10px;
+    text-align: center;
+}
+.about img{
+    max-width: 400px;
+}
+
+.about .content{
+    display: flex;
+    margin-left: 10px;
+}
+
+.about .content p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.about button{
+    margin: 20px;
+    background-color: bisque;
+    color: black;
+    padding: 0px 5px;
+}
+
+/* .services h1{
+    text-align: center;
+
+} */
+
+/* .card{
+    padding: 30px 50px;
+    background-color: bisque;
+    margin: 0px 60px;
+    border: solid black;
+} */
+
+/* .contain{
+    display: flex;
+} */
+
+.project h1{
+    text-align: center;
+}
+
+.project .card{
+    padding: 30px 30px;
+}
+
+.contact h1{
+    text-align: center;
+}
+.input{
+    margin:0px 300px ;
+    padding: 2px;
+    /* display: inline-block; */
+}
